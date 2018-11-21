@@ -8,18 +8,12 @@ body {
   margin-top: 10vh;
   height: 95vh;
 }
-#Continer_Waves{
-background-color: #3990f3;
-  height: 10rem;
-  width: 27%;
-  margin-left:30rem;
-
-
+#Continer_Waves {
+  margin-top: 0px;
 }
-.piano{
-    margin-top :10px;
-    margin-left :500px;
-
+.piano {
+  margin-top: 10px;
+  margin-left: 500px;
 }
 .white-key,
 .black-key {
@@ -32,8 +26,7 @@ background-color: #3990f3;
   height: 12rem;
   cursor: pointer;
   background-color: #fff;
-  margin-left : -1rem;
-
+  /*margin-left: -1rem; */
 }
 .white-key:hover {
   background-color: #f1f1f1;
@@ -45,13 +38,18 @@ background-color: #3990f3;
   width: 2%;
   height: 7rem;
   position: absolute;
-  /*margin-top: -2rem;*/
-  margin-left: -2rem;
+  /*margin-top: -1rem; */
+  margin-left: -1rem;
   background: #222;
   cursor: pointer;
 }
 .black-key:hover {
-    background-color: #000;
-    border: 5px inline #222;
-  }
+  background-color: #000;
+  border: 5px inline #222;
 }
+
+.drums {
+  margin: 50px;
+}
+
+/*volume*/
